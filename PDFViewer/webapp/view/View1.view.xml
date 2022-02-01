@@ -1,0 +1,19 @@
+<mvc:View controllerName="root.controller.View1"
+xmlns:core="sap.ui.core" 
+xmlns:html="http://www.w3.org/1999/xhtml" 
+xmlns:t="sap.ui.table"
+xmlns:mvc="sap.ui.core.mvc"
+displayBlock="true" xmlns="sap.m">
+	<App id="app">
+		<pages>
+			<Page title="hello">
+			<headerContent>
+	        	<Button icon="sap-icon://action" press="onNext"/>
+	        </headerContent>
+				<content>
+					<Button text="Show PDF Viewer" press="showPDF"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,21 @@
+<mvc:View controllerName="root.controller.View2"
+xmlns:core="sap.ui.core" 
+xmlns:html="http://www.w3.org/1999/xhtml" 
+xmlns:t="sap.ui.table"
+xmlns:mvc="sap.ui.core.mvc"
+ 
+displayBlock="true" xmlns="sap.m">
+	<App id="idView2">
+		<pages>
+			<Page  showNavButton="true" navButtonPress="onBack">
+				<content>
+				<PDFViewer source="{/Source}" title="{/Title}" height="{/Height}">
+				<layoutData>
+					<FlexItemData growFactor="1" />
+				</layoutData>
+				</PDFViewer>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
